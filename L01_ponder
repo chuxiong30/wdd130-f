@@ -1,0 +1,3 @@
+a = "Her name is "
+b = "Isabella"
+c = a + b
