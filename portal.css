@@ -1,3 +1,20 @@
+/*body {
+    font-size: 30px;
+    use this to change all size
+}*/
+
+/** {
+    border: 1px solid red;
+}*/
+
+body {
+    background-color: ccc;
+}
+
+#content {
+    background-color: white;
+}
+
 a {
     background-color: lightblue;
     color: rgb(71,69,69);
@@ -7,13 +24,51 @@ a {
     text-align: center;
 }
 
+a:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
 nav {
-    display:flex
+    display:flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    /*use % for size of screen, px to change size*/
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+   /*text-align: center;*/
+   width: 50%;
+   margin: 10px auto;
+   padding: 10px;
+   
 }
 
 /*always use "." for class*/
 .background {
 
     background-color: #ccc;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71,69,69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
 }
 
