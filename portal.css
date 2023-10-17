@@ -7,8 +7,11 @@
     border: 1px solid red;
 }*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&family=Playfair+Display&display=swap');
+
 body {
-    background-color: ccc;
+    background-color: lightblue;
+    font-family: Playfair Display, Roboto, sans-serif;
 }
 
 #content {
@@ -33,6 +36,7 @@ nav {
     display:flex;
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 h1 {
@@ -41,10 +45,14 @@ h1 {
 }
 
 img{
-    width: 70%;
+    width: 50%;
     /*use % for size of screen, px to change size*/
     display: block;
     margin: 0 auto;
+    border: 3px solid lightblue;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
 }
 
 p {
@@ -52,7 +60,7 @@ p {
    width: 50%;
    margin: 10px auto;
    padding: 10px;
-   
+   box-sizing: border-box;
 }
 
 /*always use "." for class*/
