@@ -169,7 +169,7 @@
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
-  width: 400px; 
+  width: 500px; 
   height: 200px; 
   background-color: red; 
   grid-column: 1/5;
@@ -187,14 +187,14 @@
 } 
 .yellow6 {
   width: 200px; 
-  height: 500px; 
+  height: 600px; 
   background-color: gold; 
   grid-column: 4/6;
   grid-row: 3/7;
 } 
 .blue6 {
-  width: 400px; 
-  height: 400px; 
+  width: 500px; 
+  height: 500px; 
   background-color: blue; 
   grid-column: 2/6;
   grid-row: 2/6;
