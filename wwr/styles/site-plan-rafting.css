@@ -12,8 +12,8 @@ Fonts are separated by a & */
   --accent2-color: #c3dac3;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Montserrat Alternates";
-  --paragraph-font: "playfair display";
+  --heading-font: "Montserrat Alternates", "Times New Roman", "Brush Script MT";
+  --paragraph-font: "playfair display", "Times New Roman", "Brush Script MT" ;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #6B6054;  /* headlines on a white background */ 
