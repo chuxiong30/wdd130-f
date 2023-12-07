@@ -200,12 +200,15 @@ main section img {
 .mountian-rivers-card {
     grid-column: 1/6;
     grid-row: 2/3;
+    padding-left: 50px;
 }
 
 .rivers-rapids-card {
     grid-column: 7/10;
     grid-row: 2/3;
     padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .rivers-card {
