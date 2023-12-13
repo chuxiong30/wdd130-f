@@ -64,11 +64,14 @@ div.hero-img {
 
 }
 
+
 .list-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
   list-style: none; 
+  text-align: start;
+
 }
   
 .list-section li {
@@ -76,6 +79,8 @@ div.hero-img {
   padding-left: 20px;
   list-style: none; 
   padding-bottom: 30px;
+  text-align: start;
+
   }
   
   .list-section li::before {
@@ -85,6 +90,7 @@ div.hero-img {
   left: 0;
   margin-right: 5px;
   list-style: none; 
+  text-align: start;
 }
 
 .row1, .row2 {
@@ -92,19 +98,21 @@ div.hero-img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: start;
+
 }
 
 .cat-pictures {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust the gap value as needed */
+  gap: 20px; 
 }
 
 .cat-item {
   text-align: center;
   box-sizing: border-box;
   position: relative;
-  max-width: 300px; /* Adjust the maximum width as needed */
+  max-width: 300px; 
 }
 
 .cat-item img {
@@ -126,7 +134,7 @@ div.hero-img {
   padding: 8px 16px;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 10px; /* Adjust the margin as needed */
+  margin-top: 10px; 
 }
 
 .contact-page form {
